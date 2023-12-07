@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.15;
+}
+
+
+body {
+    background: #f7f7f7;
+    color: #333;
+    font-family: 'Roboto Slab', serif;
+}
+section,header {
+   width: 80%; 
+   max-width: 800px;
+   margin:auto;
+}
+
+img {
+    display: block;
+    padding: 0;
+    max-width: 100%;
+}
+
+/*---- Styling Typography ----*/
+h1, blockquote {
+    color: #00ae0c;
+    font-family: 'Roboto Slab', serif;
+}
+
+p, blockquote {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+h1 { 
+    font-size: 5.063rem;
+    color:#333;
+    font-weight: bold;
+    margin: 2rem 0 1rem 0;
+}
+
+h2 { 
+    font-size: 1.75rem;
+    margin: 3rem 0 1rem 0;
+    color: #00ae0c;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 0%;
+    hanging-punctuation: first;
+    text-indent: -0.75rem;
+}
+
+cite {
+    color: #333;
+}
+
+header h2 { 
+    color: #00ae0c;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+header p {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.dropcap {
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    line-height: 55%;
+    width: 2.8rem;
+    font-size: 400%;
+    color: #00ae0c;
+
+}
+/*-- Styling links --*/
+a {
+    color: #f7f7f7;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #333;
+}
+
+.list li {
+    color: #333;
+    list-style: circle;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+    
+
+
+/*---- Style Nav ----*/
+
+nav {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background: #c10505;
+    padding: 2rem 0;
+    font-size: 1rem;    
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+    margin: 20px;
+}
+
+nav a {
+    color: #f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+}
+
+nav p {
+    font-size: 1.8rem;
+    color: #f7f7f7;
+
+
+}
+.logo {
+    font-size: 1.3rem;
+    text-align: right;
+    padding-right: 50vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    background: #c10505;
+    text-align: center;
+    font-size: 0.8;
+    color: #f7f7f7;
+    padding: 4rem 0 3rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0 12rem;
+}
+
+.connections{
+    position: relative;
+    margin: 0 auto;}
+.connections ul{
+    margin: 0;
+    padding: 0;}
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  }
+.connections a:link{
+        border-bottom: none;       }
+.connections img, .connections svg{
+    border: none;}
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;}
+ .connections svg {
+    margin: 2rem auto;}
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;}
+footer .connections a:hover svg path {
+    fill:  #C2C2C2;
+    transition: all 0.2s ease-in-out;}
+
+    /*--------- Adding media queries for different devices --------*/
+    @media (max-width: 768px) {
+        
+        h1 { 
+            font-size: 3rem;
+            color:#333;
+            font-weight: bold;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        
+        header h2 { 
+            font-size: 1.75rem;
+            color: #00ae0c;
+            font-weight: 500;
+            font-style: italic;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+
+    }
