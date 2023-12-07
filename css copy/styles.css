@@ -56,7 +56,6 @@ blockquote {
     text-indent: -0.75rem;
 }
 
-
 cite {
     color: #333;
 }
@@ -74,9 +73,18 @@ header p {
     margin-top: 2.5rem;
 }
 
+.dropcap {
+    font-family: 'Roboto Slab', serif;
+    float: left;
+    line-height: 55%;
+    width: 2.8rem;
+    font-size: 400%;
+    color: #00ae0c;
+
+}
 /*-- Styling links --*/
 a {
-    color: #00ae0c;
+    color: #f7f7f7;
     text-decoration: none;
 
 }
@@ -84,6 +92,15 @@ a {
 a:hover {
     color: #333;
 }
+
+.list li {
+    color: #333;
+    list-style: circle;
+    margin-bottom: 0.75rem;
+    margin-top: 0.75rem;
+}
+    
+
 
 /*---- Style Nav ----*/
 
@@ -94,18 +111,18 @@ nav {
     width: 100%;
     background: #c10505;
     padding: 2rem 0;
-    font-size: 0.8rem;    
+    font-size: 1rem;    
 }
 
 nav ul {
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
     list-style-type: none;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
     margin: 20px;
 }
 
@@ -118,6 +135,12 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+nav p {
+    font-size: 1.8rem;
+    color: #f7f7f7;
+
+
+}
 .logo {
     font-size: 1.3rem;
     text-align: right;
@@ -137,3 +160,51 @@ footer {
 footer p {
     margin: 0 12rem;
 }
+
+.connections{
+    position: relative;
+    margin: 0 auto;}
+.connections ul{
+    margin: 0;
+    padding: 0;}
+.connections li{
+    margin: 0 10px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;  }
+.connections a:link{
+        border-bottom: none;       }
+.connections img, .connections svg{
+    border: none;}
+.connections a:hover img, .connections a:hover svg{
+    border-bottom: none;}
+ .connections svg {
+    margin: 2rem auto;}
+.connections a:hover svg path {
+    fill: #333;
+    transition: all 0.2s ease-in-out;}
+footer .connections a:hover svg path {
+    fill:  #C2C2C2;
+    transition: all 0.2s ease-in-out;}
+
+    /*--------- Adding media queries for different devices --------*/
+    @media (max-width: 768px) {
+        
+        h1 { 
+            font-size: 3rem;
+            color:#333;
+            font-weight: bold;
+            margin: 2rem 0 1rem 0;
+        }
+        
+        
+        header h2 { 
+            font-size: 1.75rem;
+            color: #00ae0c;
+            font-weight: 500;
+            font-style: italic;
+            font-family: 'Roboto Slab', serif;
+        }
+        
+
+    }
